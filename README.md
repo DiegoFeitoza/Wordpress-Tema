@@ -1,0 +1,2 @@
+# Wordpress-Tema
+Tema personalizado
