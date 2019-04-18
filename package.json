@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DiegoFeitoza/wp-custom#readme",
   "devDependencies": {
+    "bootstrap-sass": "^3.4.1",
     "bourbon": "^5.1.0",
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
