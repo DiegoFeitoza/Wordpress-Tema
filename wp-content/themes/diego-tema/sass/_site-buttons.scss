@@ -1,0 +1,54 @@
+/* BUTTONS -----------------------------------------------------------*/
+@mixin btn-color($color, $bg-color, $color-hover, $bg-hover) {
+	color: $color;
+	background: $bg-color;
+	&:hover, &:focus{
+		color: $color-hover;
+		background: $bg-hover;
+	}
+}
+
+.btn{
+	@extend .trans;
+	font-family: $font-default;
+	padding: 15px 30px;
+	font-size: 10px;
+	color: $preto;
+	text-decoration: none;
+	letter-spacing: 1px;
+	border-radius: 0;
+	outline: none;
+	background: none;
+
+	&:active{
+		box-shadow: none !important;
+	}
+
+	&:hover, &:focus{
+		@include opacity(0.8);
+		color: $branco;
+	}
+}
+
+.btn-main{
+
+	&:hover, &:focus{
+	}
+}
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+//
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}

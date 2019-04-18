@@ -1,0 +1,28 @@
+/* COLORS -----------------------------------------------------------*/
+$preto: #555555;
+$branco: #fff;
+$azul: rgb(45, 33, 204);
+$cinza: rgb(82, 82, 82);
+$cinza-claro: rgb(161, 161, 161);
+$cinza-escuro: rgb(36, 25, 25);
+
+/* FONTS -----------------------------------------------------------*/
+$font-title: 'Bree Serif', serif;
+$font-subtitle: 'Bree Serif', sans-serif;
+$font-default:'Open Sans', sans-serif;
+$font-especial: 'Kaushan Script', cursive;
+$font-icon: "Material Design Icons";
+
+/* VARIABLES -----------------------------------------------------------*/
+$shadow: 1px 1px 3px $preto;
+$text-color: $preto;
+$link-color: $preto;
+$link-color-hover: $cinza-escuro;
+
+// MDI Fonts
+$mdi-font-path: "libs/mdi/fonts" !default;
+
+//Medias -----------------------------------------------------------*/
+$screen-sm-min:768px;
+$screen-md-min:992px;
+$screen-lg-min:1200px;

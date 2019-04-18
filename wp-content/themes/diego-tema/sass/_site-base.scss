@@ -1,0 +1,112 @@
+/* DEFAULT CSS -----------------------------------------------------------*/
+
+html{
+	font-size: 1em;
+}
+
+body{
+	font-family: $font-default;
+	font-size: 1em;
+	color: $text-color;
+}
+
+.faixa{
+	height: 70px;
+	width: 100%;
+}
+
+.nospace{
+	margin: 0;
+	padding: 0;
+}
+
+.break-word{
+	word-wrap: break-word;
+}
+
+a{
+	@extend .trans;
+	color: $link-color;
+	&:hover{
+		color: $link-color-hover;
+		text-decoration: none;
+	}
+
+	&:focus, &:active{
+		outline: none;
+		text-decoration: none;
+	}
+}
+
+.link-title{
+	@extend .trans;
+	color: $preto;
+	&:hover{
+		//color: $vermelho;
+		text-decoration: none;
+	}
+}
+
+.text-variant{
+	line-height: 28px;
+}
+
+.text{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/* MARGINS, PADINGS, POSITIONS -----------------------------------------------------------*/
+.left							{ text-align: left; }
+.center						{ text-align: center; }
+.right						{ text-align: right; }
+
+.block 						{ display: block; }
+.dtable 						{ display: table; }
+.inline 					{ display: inline; }
+.inline-block 		{ display: inline-block; }
+.none 						{ display: none; }
+
+.section-margin		{ margin-top: 20px !important; margin-bottom: 20px !important}
+.section-padding	{ padding-top: 20px !important; padding-bottom: 20px !important}
+
+.pt-remove				{ padding-top: 0 !important; }
+.pb-remove				{ padding-bottom: 0 !important; }
+
+.mt-remove				{ margin-top: 0 !important; }
+.mb-remove				{ margin-bottom: 0 !important; }
+
+.full-width				{ width: 100%; }
+.full-height			{ height: 100%; }
+
+/* ANIMATIONS / DETAILS -----------------------------------------------------------*/
+.trans{
+	transition: all .2s ease-in-out;
+}
+
+.notop{
+	top: 0;
+}
+
+.fix-title{
+	.title{
+		margin-left: 15px;
+	}
+}
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+//
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}

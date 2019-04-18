@@ -1,0 +1,30 @@
+/* TITLES -----------------------------------------------------------*/
+
+.title{
+	margin-top: 10px;
+	font-family: $font-title;
+	font-size: 30px;
+}
+/* SUBTITLES -----------------------------------------------------------*/
+
+.subtitle{
+	margin-top: 10px;
+	font-family: $font-subtitle;
+	font-size: 18px;
+}
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+//
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}

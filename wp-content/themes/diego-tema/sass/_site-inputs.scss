@@ -1,0 +1,49 @@
+/* INPUTS -----------------------------------------------------------*/
+
+.input{
+	@extend .trans;
+	border: 1px solid #333;
+	border-radius: 0;
+	padding: 10px;
+	width: 100%;
+	font-family: $font-default;
+	background-color: $branco;
+	color: $text-color;
+	@include placeholder {
+		color: $cinza;
+	}
+
+	&:focus, &:hover, &:active{
+		border-bottom: 1px solid $preto;
+		outline: none;
+	}
+}
+
+textarea{
+	@extend .trans;
+	width: 100%;
+	border: 1px solid $cinza-claro;
+	margin-top: 15px;
+
+	&:focus{
+		border: 1px solid $cinza-claro;
+		outline: none;
+		padding: 10px;
+		padding-left: 3px;
+	}
+
+	&:after{
+		position: relative;
+		content:'\25BA';
+	}
+}
+
+.select{
+	-webkit-appearance: none;
+	border-radius: 0;
+	padding: 12px 10px;
+	color: $cinza;
+	font-family: "Lato", sans-serif;
+	background-color: $branco;
+	width: 100%;
+}
